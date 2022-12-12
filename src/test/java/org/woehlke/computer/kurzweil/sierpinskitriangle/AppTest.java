@@ -1,4 +1,4 @@
-package org.woehlke.computer.kurzweil.simulation.evolution;
+package org.woehlke.computer.kurzweil.sierpinskitriangle;
 
 
 import org.junit.jupiter.api.Test;
