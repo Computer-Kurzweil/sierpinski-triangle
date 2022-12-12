@@ -36,6 +36,3 @@ cd sierpinskitriangle
 ## Repositories
 * [Github Repository](https://github.com/Computer-Kurzweil/sierpinskitriangle)
 * [Maven Project Reports](https://java.woehlke.org/sierpinskitriangle/readme2.html)
-
-## Blog Article
-[http://thomas-woehlke.blogspot.de/2016/01/simulated-evolution-artificial-life-and.html](http://thomas-woehlke.blogspot.de/2016/01/simulated-evolution-artificial-life-and.html)

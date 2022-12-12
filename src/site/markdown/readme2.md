@@ -1,9 +1,10 @@
-# Simulated Evolution
+# Sierpinskitriangle
 
-Artificial Life Simulation of Bacteria Motion depending on DNA
 
-* [Github Repository](https://github.com/Computer-Kurzweil/simulated-evolution)
-* [Blog](http://thomas-woehlke.blogspot.de/2016/01/simulated-evolution-artificial-life-and.html)
+![Java CI with Maven](https://github.com/Computer-Kurzweil/sierpinskitriangle/workflows/Java%20CI%20with%20Maven/badge.svg)
+[![Build Status](https://travis-ci.com/Computer-Kurzweil/sierpinskitriangle.svg?branch=master)](https://travis-ci.com/Computer-Kurzweil/sierpinskitriangle)
+
+**Artificial Life Simulation of Bacteria Motion depending on DNA**
 
 ## Abstract
 
@@ -12,12 +13,14 @@ Movement of the cells depends on random and their DNA. A fit cell moves around a
 Reproduction is done by splitting the cell and randomly changing the DNA of the two new Cells.
 If a cell doesn't eat enough, it will first stand still and after a while it dies.
 
+
 ## Run the Desktop Application
-````
-    git clone https://github.com/Computer-Kurzweil/simulated-evolution.git
-    cd simulated-evolution
-    ./mvnw
-````
+
+```
+git clone https://github.com/Computer-Kurzweil/sierpinskitriangle.git
+cd sierpinskitriangle
+./mvnw
+```
 
 ## Screenshot
 
@@ -25,13 +28,11 @@ If a cell doesn't eat enough, it will first stand still and after a while it die
 
 ![Later Screen](img/screen2.png)
 
+
 ## UML Class Model
 ![UML Class Model](img/Class_Model.jpg)
 
+
 ## Repositories
-* [Github Repository](https://github.com/Computer-Kurzweil/simulated-evolution)
-* [Maven Project Reports](https://java.woehlke.org/simulated-evolution/readme2.html)
-
-## Blog Article
-[http://thomas-woehlke.blogspot.de/2016/01/simulated-evolution-artificial-life-and.html](http://thomas-woehlke.blogspot.de/2016/01/simulated-evolution-artificial-life-and.html)
-
+* [Github Repository](https://github.com/Computer-Kurzweil/sierpinskitriangle)
+* [Maven Project Reports](https://java.woehlke.org/sierpinskitriangle/readme2.html)
