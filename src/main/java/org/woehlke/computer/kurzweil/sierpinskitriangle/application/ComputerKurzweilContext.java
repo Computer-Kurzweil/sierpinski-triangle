@@ -6,8 +6,8 @@ import lombok.extern.log4j.Log4j2;
 import org.woehlke.computer.kurzweil.sierpinskitriangle.config.ComputerKurzweilProperties;
 import org.woehlke.computer.kurzweil.sierpinskitriangle.commons.Startable;
 import org.woehlke.computer.kurzweil.sierpinskitriangle.commons.model.LatticePoint;
-import org.woehlke.computer.kurzweil.sierpinskitriangle.tabs.simulatedevolution.model.CellCore;
-import org.woehlke.computer.kurzweil.sierpinskitriangle.tabs.simulatedevolution.model.LifeCycle;
+import org.woehlke.computer.kurzweil.sierpinskitriangle.tabs.sierpinskitriangle.model.CellCore;
+import org.woehlke.computer.kurzweil.sierpinskitriangle.tabs.sierpinskitriangle.model.LifeCycle;
 
 import javax.swing.*;
 import javax.swing.border.Border;

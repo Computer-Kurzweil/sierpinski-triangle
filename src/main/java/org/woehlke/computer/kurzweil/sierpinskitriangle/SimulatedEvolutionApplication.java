@@ -2,7 +2,7 @@ package org.woehlke.computer.kurzweil.sierpinskitriangle;
 
 import lombok.extern.log4j.Log4j2;
 import org.woehlke.computer.kurzweil.sierpinskitriangle.config.ComputerKurzweilProperties;
-import org.woehlke.computer.kurzweil.sierpinskitriangle.tabs.simulatedevolution.SimulatedEvolutionTab;
+import org.woehlke.computer.kurzweil.sierpinskitriangle.tabs.sierpinskitriangle.SimulatedEvolutionTab;
 
 /**
  * Class with main Method for Starting the Desktop Application.
