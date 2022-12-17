@@ -11,16 +11,16 @@
         </RollingFileAppender>
     </Appenders>
     <Loggers>
-        <Logger name="org.woehlke.computer.kurzweil.mandelbrot.julia.config" level="info" includeLocation="true">
+        <Logger name="org.woehlke.computer.kurzweil.sierpinksitriangle.config" level="info" includeLocation="true">
             <AppenderRef ref="Console"/>
         </Logger>
-        <Logger name="org.woehlke.computer.kurzweil.mandelbrot.julia.control" level="info" includeLocation="true">
+        <Logger name="org.woehlke.computer.kurzweil.sierpinksitriangle.control" level="info" includeLocation="true">
             <AppenderRef ref="Console"/>
         </Logger>
-        <Logger name="org.woehlke.computer.kurzweil.mandelbrot.julia.model" level="info" includeLocation="true">
+        <Logger name="org.woehlke.computer.kurzweil.sierpinksitriangle.model" level="info" includeLocation="true">
             <AppenderRef ref="Console"/>
         </Logger>
-        <Logger name="org.woehlke.computer.kurzweil.mandelbrot.julia.view" level="info" includeLocation="true">
+        <Logger name="org.woehlke.computer.kurzweil.sierpinksitriangle.view" level="info" includeLocation="true">
             <AppenderRef ref="Console"/>
         </Logger>
         <Root level="info">
