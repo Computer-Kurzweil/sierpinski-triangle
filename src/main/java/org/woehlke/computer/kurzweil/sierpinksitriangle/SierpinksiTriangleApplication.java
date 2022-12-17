@@ -16,9 +16,9 @@ import org.woehlke.computer.kurzweil.sierpinksitriangle.view.ApplicationFrame;
  * @see <a href="https://github.com/Computer-Kurzweil/mandelbrot-julia">Github Repository</a>
  * @see <a href="https://java.woehlke.org/mandelbrot-julia/">Maven Project Repository</a>
  */
-public class MandelbrotJuliaApplication {
+public class SierpinksiTriangleApplication {
 
-    private MandelbrotJuliaApplication() {
+    private SierpinksiTriangleApplication() {
         String conf = "application.yml";
         String jarPath = "target/sierpinskitriangle.jar";
         ComputerKurzweilProperties config = ComputerKurzweilProperties.propertiesFactory(conf,jarPath);
@@ -31,6 +31,6 @@ public class MandelbrotJuliaApplication {
      * @param args CLI Parameter
      */
     public static void main(String[] args) {
-        MandelbrotJuliaApplication application = new MandelbrotJuliaApplication();
+        SierpinksiTriangleApplication application = new SierpinksiTriangleApplication();
     }
 }
