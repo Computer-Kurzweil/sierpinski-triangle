@@ -675,26 +675,18 @@ public class ComputerKurzweilProperties implements Serializable {
             @NotBlank
             private String subtitle;
 
-            @Valid
-            public Neighborhood neighborhood = new Neighborhood();
+            @NotBlank
+            private String copyright;
 
-            @Getter
-            @Setter
-            @ToString
-            public static class Neighborhood {
+            @NotBlank
+            private Integer width;
 
-                @NotBlank
-                private String title;
+            @NotBlank
+            private Integer height;
 
-                @NotBlank
-                private String typeVonNeumann;
+            @NotBlank
+            private Integer scale;
 
-                @NotBlank
-                private String typeMoore;
-
-                @NotBlank
-                private String typeWoehlke;
-            }
         }
 
         @ToString
@@ -704,9 +696,6 @@ public class ComputerKurzweilProperties implements Serializable {
 
             @NotNull
             private Integer threadSleepTime;
-
-            @NotNull
-            private Integer numberOfParticles;
         }
     }
 
