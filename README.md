@@ -2,7 +2,6 @@
 
 
 ![Java CI with Maven](https://github.com/Computer-Kurzweil/sierpinskitriangle/workflows/Java%20CI%20with%20Maven/badge.svg)
-[![Build Status](https://travis-ci.com/Computer-Kurzweil/sierpinskitriangle.svg?branch=master)](https://travis-ci.com/Computer-Kurzweil/sierpinskitriangle)
 
 **Artificial Life Simulation of Bacteria Motion depending on DNA**
 
@@ -35,4 +34,4 @@ cd sierpinskitriangle
 
 ## Repositories
 * [Github Repository](https://github.com/Computer-Kurzweil/sierpinskitriangle)
-* [Maven Project Reports](https://java.woehlke.org/sierpinskitriangle/readme2.html)
+* [Maven Project Reports](https://java.woehlke.org/sierpinskitriangle/)
