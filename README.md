@@ -1,6 +1,5 @@
 # Sierpinskitriangle
 
-
 ![Java CI with Maven](https://github.com/Computer-Kurzweil/sierpinskitriangle/workflows/Java%20CI%20with%20Maven/badge.svg)
 
 **Artificial Life Simulation of Bacteria Motion depending on DNA**
