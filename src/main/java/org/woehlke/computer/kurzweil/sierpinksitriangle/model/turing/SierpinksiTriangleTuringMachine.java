@@ -19,13 +19,13 @@ import org.woehlke.computer.kurzweil.sierpinksitriangle.model.fractal.GaussianNu
  * Date: 28.08.13
  * Time: 12:39
  */
-public class MandelbrotTuringMachine {
+public class SierpinksiTriangleTuringMachine {
 
     private volatile GaussianNumberPlane gaussianNumberPlane;
     private volatile TuringPositions turingPositions;
     private volatile TuringPhaseState turingPhaseState;
 
-    public MandelbrotTuringMachine(ApplicationModel model) {
+    public SierpinksiTriangleTuringMachine(ApplicationModel model) {
         this.gaussianNumberPlane = model.getGaussianNumberPlane();
         this.turingPhaseState = new TuringPhaseState();
         this.turingPositions = new TuringPositions(model.getWorldDimensions());

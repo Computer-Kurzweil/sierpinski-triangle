@@ -5,7 +5,7 @@ import org.woehlke.computer.kurzweil.sierpinksitriangle.config.ComputerKurzweilP
 import org.woehlke.computer.kurzweil.sierpinksitriangle.model.fractal.GaussianNumberPlane;
 import org.woehlke.computer.kurzweil.sierpinksitriangle.model.common.Point;
 import org.woehlke.computer.kurzweil.sierpinksitriangle.view.state.ApplicationStateMachine;
-import org.woehlke.computer.kurzweil.sierpinksitriangle.model.turing.MandelbrotTuringMachine;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.model.turing.SierpinksiTriangleTuringMachine;
 import org.woehlke.computer.kurzweil.sierpinksitriangle.view.ApplicationFrame;
 
 /**
@@ -18,7 +18,7 @@ import org.woehlke.computer.kurzweil.sierpinksitriangle.view.ApplicationFrame;
  * @see <a href="https://java.woehlke.org/mandelbrot-julia/">Maven Project Repository</a>
  *
  * @see GaussianNumberPlane
- * @see MandelbrotTuringMachine
+ * @see SierpinksiTriangleTuringMachine
  * @see ApplicationStateMachine
  *
  * @see ComputerKurzweilProperties
@@ -30,7 +30,7 @@ import org.woehlke.computer.kurzweil.sierpinksitriangle.view.ApplicationFrame;
 public class ApplicationModel {
 
     private volatile GaussianNumberPlane gaussianNumberPlane;
-    private volatile MandelbrotTuringMachine mandelbrotTuringMachine;
+    private volatile SierpinksiTriangleTuringMachine sierpinksiTriangleTuringMachine;
     private volatile ApplicationStateMachine applicationStateMachine;
 
     private volatile ComputerKurzweilProperties config;
@@ -40,7 +40,7 @@ public class ApplicationModel {
         this.config = config;
         this.frame = frame;
         this.gaussianNumberPlane = new GaussianNumberPlane(this);
-        this.mandelbrotTuringMachine = new MandelbrotTuringMachine(this);
+        this.sierpinksiTriangleTuringMachine = new SierpinksiTriangleTuringMachine(this);
         this.applicationStateMachine = new ApplicationStateMachine();
     }
 
@@ -49,7 +49,7 @@ public class ApplicationModel {
         boolean repaint = true;
         switch (applicationStateMachine.getApplicationState()) {
             case MANDELBROT:
-                mandelbrotTuringMachine.start();
+                sierpinksiTriangleTuringMachine.start();
                 repaint = false;
                 break;
             case JULIA_SET:
@@ -63,7 +63,7 @@ public class ApplicationModel {
         boolean repaint = false;
         switch (applicationStateMachine.getApplicationState()) {
             case MANDELBROT:
-                repaint = mandelbrotTuringMachine.step();
+                repaint = sierpinksiTriangleTuringMachine.step();
                 break;
             case JULIA_SET:
                 break;
