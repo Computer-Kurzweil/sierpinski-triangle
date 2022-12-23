@@ -1,4 +1,4 @@
-package org.woehlke.computer.kurzweil.kochsnowflake.model;
+package org.woehlke.computer.kurzweil.sierpinksitriangle.model;
 
 import org.junit.jupiter.api.Test;
 

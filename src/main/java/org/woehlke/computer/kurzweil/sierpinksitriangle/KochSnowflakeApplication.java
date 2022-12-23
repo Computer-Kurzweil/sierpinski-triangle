@@ -1,7 +1,7 @@
-package org.woehlke.computer.kurzweil.kochsnowflake;
+package org.woehlke.computer.kurzweil.sierpinksitriangle;
 
-import org.woehlke.computer.kurzweil.kochsnowflake.config.ComputerKurzweilProperties;
-import org.woehlke.computer.kurzweil.kochsnowflake.view.KochSnowflakeFrame;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.config.ComputerKurzweilProperties;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.view.KochSnowflakeFrame;
 
 /**
  * Koch Snowflake. A Fractal with self self-similarity.

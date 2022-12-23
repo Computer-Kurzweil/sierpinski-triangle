@@ -1,4 +1,4 @@
-package org.woehlke.computer.kurzweil.kochsnowflake.model.turing;
+package org.woehlke.computer.kurzweil.sierpinksitriangle.model.turing;
 
 
 

@@ -11,7 +11,7 @@
         </RollingFileAppender>
     </Appenders>
     <Loggers>
-        <Logger name="org.woehlke.computer.kurzweil.kochsnowflake" level="info" includeLocation="true">
+        <Logger name="org.woehlke.computer.kurzweil.sierpinksitriangle" level="info" includeLocation="true">
             <AppenderRef ref="Console"/>
         </Logger>
         <Root level="info">

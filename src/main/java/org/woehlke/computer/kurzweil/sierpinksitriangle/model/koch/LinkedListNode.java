@@ -1,7 +1,7 @@
-package org.woehlke.computer.kurzweil.kochsnowflake.model.koch;
+package org.woehlke.computer.kurzweil.sierpinksitriangle.model.koch;
 
 import lombok.*;
-import org.woehlke.computer.kurzweil.kochsnowflake.model.geometry.LatticePoint;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.model.geometry.LatticePoint;
 
 import java.io.Serializable;
 import java.util.Objects;

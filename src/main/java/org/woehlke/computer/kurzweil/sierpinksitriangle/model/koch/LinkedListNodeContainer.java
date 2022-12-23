@@ -1,11 +1,10 @@
-package org.woehlke.computer.kurzweil.kochsnowflake.model.koch;
+package org.woehlke.computer.kurzweil.sierpinksitriangle.model.koch;
 
 import lombok.Getter;
-import org.woehlke.computer.kurzweil.kochsnowflake.config.ComputerKurzweilProperties;
-import org.woehlke.computer.kurzweil.kochsnowflake.model.geometry.LatticeDimension;
-import org.woehlke.computer.kurzweil.kochsnowflake.model.geometry.LatticePoint;
-import org.woehlke.computer.kurzweil.kochsnowflake.model.geometry.LatticeVector;
-import org.woehlke.computer.kurzweil.kochsnowflake.view.KochSnowflakeFrame;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.config.ComputerKurzweilProperties;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.model.geometry.LatticeDimension;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.model.geometry.LatticePoint;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.view.KochSnowflakeFrame;
 
 import java.io.Serializable;
 

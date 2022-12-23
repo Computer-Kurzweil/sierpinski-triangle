@@ -1,8 +1,8 @@
-package org.woehlke.computer.kurzweil.kochsnowflake.view.canvas;
+package org.woehlke.computer.kurzweil.sierpinksitriangle.view.canvas;
 
-import org.woehlke.computer.kurzweil.kochsnowflake.model.KochSnowflakeModel;
-import org.woehlke.computer.kurzweil.kochsnowflake.model.koch.LinkedListNode;
-import org.woehlke.computer.kurzweil.kochsnowflake.view.KochSnowflakeFrame;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.model.KochSnowflakeModel;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.model.koch.LinkedListNode;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.view.KochSnowflakeFrame;
 
 import javax.swing.*;
 import java.awt.*;

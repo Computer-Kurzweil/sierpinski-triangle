@@ -1,4 +1,4 @@
-package org.woehlke.computer.kurzweil.kochsnowflake.view.labels;
+package org.woehlke.computer.kurzweil.sierpinksitriangle.view.labels;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,4 +1,4 @@
-package org.woehlke.computer.kurzweil.kochsnowflake.config;
+package org.woehlke.computer.kurzweil.sierpinksitriangle.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
@@ -7,7 +7,7 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import lombok.*;
 import lombok.extern.log4j.Log4j2;
-import org.woehlke.computer.kurzweil.kochsnowflake.model.geometry.LatticeVector;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.model.geometry.LatticeVector;
 
 import java.io.InputStream;
 import java.io.Serializable;

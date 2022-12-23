@@ -1,14 +1,14 @@
-package org.woehlke.computer.kurzweil.kochsnowflake.view;
+package org.woehlke.computer.kurzweil.sierpinksitriangle.view;
 
 import lombok.Getter;
-import org.woehlke.computer.kurzweil.kochsnowflake.config.ComputerKurzweilProperties;
-import org.woehlke.computer.kurzweil.kochsnowflake.control.ControllerThread;
-import org.woehlke.computer.kurzweil.kochsnowflake.model.KochSnowflakeModel;
-import org.woehlke.computer.kurzweil.kochsnowflake.model.geometry.LatticePoint;
-import org.woehlke.computer.kurzweil.kochsnowflake.model.geometry.LatticeRectangle;
-import org.woehlke.computer.kurzweil.kochsnowflake.view.canvas.KochSnowflakeCanvas;
-import org.woehlke.computer.kurzweil.kochsnowflake.view.labels.PanelCopyright;
-import org.woehlke.computer.kurzweil.kochsnowflake.view.labels.PanelSubtitle;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.config.ComputerKurzweilProperties;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.control.ControllerThread;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.model.KochSnowflakeModel;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.model.geometry.LatticePoint;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.model.geometry.LatticeRectangle;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.view.canvas.KochSnowflakeCanvas;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.view.labels.PanelCopyright;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.view.labels.PanelSubtitle;
 
 import javax.accessibility.Accessible;
 import javax.swing.*;
