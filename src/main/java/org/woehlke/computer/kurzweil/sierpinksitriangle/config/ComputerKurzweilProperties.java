@@ -673,10 +673,10 @@ public class ComputerKurzweilProperties implements Serializable {
     public static class Sierpinskitriangle {
 
         @Valid
-        public View view = new View();
+        public ComputerKurzweilProperties.Kochsnowflake.View view = new Kochsnowflake.View();
 
         @Valid
-        public Control control = new Control();
+        public ComputerKurzweilProperties.Kochsnowflake.Control control = new Kochsnowflake.Control();
 
         @ToString
         @Getter
@@ -689,12 +689,24 @@ public class ComputerKurzweilProperties implements Serializable {
             @NotBlank
             private String subtitle;
 
-            @Valid
-            public Neighborhood neighborhood = new Neighborhood();
+            @NotBlank
+            private String copyright;
 
+            @NotNull
+            private Integer width;
+
+            @NotNull
+            private Integer height;
+
+            @NotNull
+            private Integer scale;
+
+            @Valid
+            public ComputerKurzweilProperties.Kochsnowflake.View.Neighborhood neighborhood = new Kochsnowflake.View.Neighborhood();
+
+            @ToString
             @Getter
             @Setter
-            @ToString
             public static class Neighborhood {
 
                 @NotBlank
@@ -720,7 +732,7 @@ public class ComputerKurzweilProperties implements Serializable {
             private Integer threadSleepTime;
 
             @NotNull
-            private Integer numberOfParticles;
+            private Integer maxIterations;
         }
     }
 
