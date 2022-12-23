@@ -3,7 +3,6 @@ package org.woehlke.computer.kurzweil.sierpinksitriangle.model.geometry;
 import lombok.*;
 import lombok.extern.log4j.Log4j2;
 import org.woehlke.computer.kurzweil.sierpinksitriangle.config.ComputerKurzweilProperties;
-import org.woehlke.computer.kurzweil.sierpinksitriangle.model.koch.LinkedListNode;
 import org.woehlke.computer.kurzweil.sierpinksitriangle.view.SierpinksiTriangleFrame;
 
 import java.io.Serializable;
@@ -18,8 +17,6 @@ import java.io.Serializable;
  * @see ComputerKurzweilProperties
  * @see SierpinksiTriangleFrame
  * @see LatticeDimension
- *
- * @see LinkedListNode
  *
  * @see <a href="https://github.com/Computer-Kurzweil/sierpinskitriangle">Github Repository</a>
  * @see <a href="https://java.woehlke.org/sierpinskitriangle/">Maven Project Reports</a>

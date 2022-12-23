@@ -66,8 +66,11 @@ public class TriagleContainer implements Serializable {
     }
 
     public void step(){
-        Triagle verticeLeftTriagle = new Triagle();
-        Triagle verticeUpperTriagle = new Triagle();
-        Triagle verticeRightTriagle = new Triagle();
+        List<Triagle> triaglesNextLevel = new ArrayList<>();
+        for(Triagle srcTriagle:this.triagles) {
+            Triagle verticeLeftTriagle = new Triagle();
+            Triagle verticeUpperTriagle = new Triagle();
+            Triagle verticeRightTriagle = new Triagle();
+        }
     }
 }

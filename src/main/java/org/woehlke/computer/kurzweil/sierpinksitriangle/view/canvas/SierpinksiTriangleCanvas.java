@@ -1,12 +1,13 @@
 package org.woehlke.computer.kurzweil.sierpinksitriangle.view.canvas;
 
 import org.woehlke.computer.kurzweil.sierpinksitriangle.model.SierpinksiTriangleModel;
-import org.woehlke.computer.kurzweil.sierpinksitriangle.model.koch.LinkedListNode;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.model.sierpinksi.Triagle;
 import org.woehlke.computer.kurzweil.sierpinksitriangle.view.SierpinksiTriangleFrame;
 
 import javax.swing.*;
 import java.awt.*;
 import java.io.Serial;
+import java.util.List;
 
 
 /**
@@ -64,24 +65,37 @@ public class SierpinksiTriangleCanvas extends JComponent {
             this.model.getWorldDimensions().getHeight()
         );
         g.setColor(Color.RED);
-        LinkedListNode startNode = model.getLinkedListNodeContainer().getStartNode();
-        LinkedListNode currentNode = model.getLinkedListNodeContainer().getStartNode();
+        List<Triagle> triagles = model.getTriagleContainer().getTriagles();
         int i=0;
-        do {
+        for(Triagle triagle:triagles) {
             i++;
             if(i%2==0){
                 g.setColor(Color.RED);
             } else {
                 g.setColor(Color.GREEN);
             }
+            //left
             g.drawLine(
-                currentNode.getPoint().getX(),
-                currentNode.getPoint().getY(),
-                currentNode.getNext().getPoint().getX(),
-                currentNode.getNext().getPoint().getY()
+                triagle.getVerticeLeft().getX(),
+                triagle.getVerticeLeft().getY(),
+                triagle.getVerticeUpper().getX(),
+                triagle.getVerticeUpper().getX()
             );
-            currentNode = currentNode.getNext();
-        } while (! startNode.equals(currentNode));
+            //right
+            g.drawLine(
+                triagle.getVerticeUpper().getX(),
+                triagle.getVerticeUpper().getX(),
+                triagle.getVerticeRight().getX(),
+                triagle.getVerticeRight().getY()
+            );
+            //baseline
+            g.drawLine(
+                triagle.getVerticeRight().getX(),
+                triagle.getVerticeRight().getY(),
+                triagle.getVerticeLeft().getX(),
+                triagle.getVerticeLeft().getY()
+            );
+        }
     }
 
     public void update(Graphics g) {
