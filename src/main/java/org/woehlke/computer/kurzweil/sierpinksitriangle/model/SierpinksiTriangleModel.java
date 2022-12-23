@@ -36,9 +36,9 @@ public class SierpinksiTriangleModel implements Serializable {
     public SierpinksiTriangleModel(SierpinksiTriangleFrame tab) {
         this.tab = tab;
         ComputerKurzweilProperties config = tab.getConfig();
-        int scale = config.getKochsnowflake().getView().getScale();
-        int width = scale * config.getKochsnowflake().getView().getWidth();
-        int height = scale * config.getKochsnowflake().getView().getHeight();
+        int scale = config.getSierpinskitriangle().getView().getScale();
+        int width = scale * config.getSierpinskitriangle().getView().getWidth();
+        int height = scale * config.getSierpinskitriangle().getView().getHeight();
         this.worldDimensions = LatticeDimension.of(width,height);
         this.linkedListNodeContainer = new LinkedListNodeContainer(tab, this.worldDimensions);
     }

@@ -66,8 +66,8 @@ public class SierpinksiTriangleFrame extends JFrame implements ImageObserver,
         this.model = new SierpinksiTriangleModel(this);
         this.canvas = new SierpinksiTriangleCanvas(this);
         this.controller = new ControllerThread( this);
-        this.panelSubtitle = new PanelSubtitle(config.getKochsnowflake().getView().getSubtitle());
-        this.panelCopyright = new PanelCopyright(config.getKochsnowflake().getView().getCopyright());
+        this.panelSubtitle = new PanelSubtitle(config.getSierpinskitriangle().getView().getSubtitle());
+        this.panelCopyright = new PanelCopyright(config.getSierpinskitriangle().getView().getCopyright());
         BoxLayout layout = new BoxLayout(rootPane, BoxLayout.PAGE_AXIS);
         rootPane.setLayout(layout);
         rootPane.add(panelSubtitle);

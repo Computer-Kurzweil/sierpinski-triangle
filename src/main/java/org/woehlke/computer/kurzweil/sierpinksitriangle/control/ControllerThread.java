@@ -33,8 +33,8 @@ public class ControllerThread extends Thread implements Runnable {
         this.view = view;
         this.model = this.view.getModel();
         goOn = Boolean.TRUE;
-        this.threadSleepTtime = this.view.getConfig().getKochsnowflake().getControl().getThreadSleepTime();
-        this.maxIterations = this.view.getConfig().getKochsnowflake().getControl().getMaxIterations();
+        this.threadSleepTtime = this.view.getConfig().getSierpinskitriangle().getControl().getThreadSleepTime();
+        this.maxIterations = this.view.getConfig().getSierpinskitriangle().getControl().getMaxIterations();
         //this.maxIterations = 2;
     }
 
