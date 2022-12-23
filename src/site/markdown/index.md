@@ -1,54 +1,37 @@
-# Koch snowflake
+# Sierpinskitriangle
 
-[![Java CI with Maven](https://github.com/Computer-Kurzweil/kochsnowflake/actions/workflows/maven.yml/badge.svg)](https://github.com/Computer-Kurzweil/kochsnowflake/actions/workflows/maven.yml)
+![Java CI with Maven](https://github.com/Computer-Kurzweil/sierpinskitriangle/workflows/Java%20CI%20with%20Maven/badge.svg)
 
-**a fractal with self-similarity**
+**a fractal with self self-similarity**
 
-## Abstract: Koch snowflake
+## Abstract
 
-The Koch snowflake (also known as the Koch curve, Koch star, or Koch island)
-is a fractal curve and one of the earliest fractals to have been described.
-
-It is based on the Koch curve, which appeared in a 1904 paper titled
-"On a Continuous Curve Without Tangents, Constructible from Elementary Geometry"
-by the Swedish mathematician Helge von Koch.
-
-The Koch snowflake can be built up iteratively, in a sequence of stages.
-The first stage is an equilateral triangle,
-and each successive stage is formed by adding outward bends to each side of the previous stage,
-making smaller equilateral triangles.
-
-The areas enclosed by the successive stages in the construction
-of the snowflake converge to 8 5 {\displaystyle {\tfrac {8}{5}}} times the area of the original triangle,
-while the perimeters of the successive stages increase without bound. Consequently, the snowflake encloses
-a finite area, but has an infinite perimeter.
-
-## More
-* [https://en.wikipedia.org/wiki/Koch_snowflake](https://en.wikipedia.org/wiki/Koch_snowflake)
-* [https://en.wikipedia.org/wiki/Helge_von_Koch](https://en.wikipedia.org/wiki/Helge_von_Koch)
-
-## Screenshots
-
-### first stage is an equilateral triangle
-
-![Running around the Edge of the Mandelbrot Set](img/screen001.png)
-
-### each successive stage is formed by adding outward bends to each side of the previous stage
-
-![Running around the Edge of the Mandelbrot Set](img/screen002.png)
-
-### each successive stage is formed by adding outward bends to each side of the previous stage
-
-![Computing the Area outside the Mandelbrot Set](img/screen003.png)
+The Sierpiński triangle (sometimes spelled Sierpinski),
+also called the Sierpiński gasket or Sierpiński sieve, is a fractal attractive fixed set with the
+overall shape of an equilateral triangle, subdivided recursively into smaller equilateral triangles.
+Originally constructed as a curve, this is one of the basic examples of self-similar sets—that is,
+it is a mathematically generated pattern that is reproducible at any magnification or reduction.
+It is named after the Polish mathematician Wacław Sierpiński, but appeared as a decorative pattern
+many centuries before the work of Sierpiński.
 
 
-### Repositories
-* [Github Repository](https://github.com/Computer-Kurzweil/kochsnowflake)
-* [Maven Project Reports](https://java.woehlke.org/kochsnowflake)
+## Run the Desktop Application
 
-### Run the Application
 ```
-git clone https://github.com/Computer-Kurzweil/kochsnowflake.git
-cd kochsnowflake
+git clone https://github.com/Computer-Kurzweil/sierpinskitriangle.git
+cd sierpinskitriangle
 ./mvnw
 ```
+
+## Screenshot
+
+![Early Screen](img/screen001.png)
+
+![Later Screen](img/screen002.png)
+
+![Later Screen](img/screen003.png)
+
+
+## Repositories
+* [Github Repository](https://github.com/Computer-Kurzweil/sierpinskitriangle)
+* [Maven Project Reports](https://java.woehlke.org/sierpinskitriangle/)
