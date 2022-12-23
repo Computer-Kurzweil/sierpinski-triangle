@@ -1,15 +1,15 @@
 package org.woehlke.computer.kurzweil.sierpinksitriangle.control;
 
-import org.woehlke.computer.kurzweil.sierpinksitriangle.model.KochSnowflakeModel;
-import org.woehlke.computer.kurzweil.sierpinksitriangle.view.KochSnowflakeFrame;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.model.SierpinksiTriangleModel;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.view.SierpinksiTriangleFrame;
 
 /**
  * Koch Snowflake. A Fractal with self self-similarity.
  * (C) 2006 - 2022 Thomas Woehlke
  * @author Thomas Woehlke
  *
- * @see KochSnowflakeFrame
- * @see KochSnowflakeModel
+ * @see SierpinksiTriangleFrame
+ * @see SierpinksiTriangleModel
  *
  * @see Thread
  * @see Runnable
@@ -22,14 +22,14 @@ import org.woehlke.computer.kurzweil.sierpinksitriangle.view.KochSnowflakeFrame;
  */
 public class ControllerThread extends Thread implements Runnable {
 
-    private volatile KochSnowflakeModel model;
-    private volatile KochSnowflakeFrame view;
+    private volatile SierpinksiTriangleModel model;
+    private volatile SierpinksiTriangleFrame view;
 
     private final int threadSleepTtime;
     private final int maxIterations;
     private volatile Boolean goOn;
 
-    public ControllerThread(KochSnowflakeFrame view) {
+    public ControllerThread(SierpinksiTriangleFrame view) {
         this.view = view;
         this.model = this.view.getModel();
         goOn = Boolean.TRUE;

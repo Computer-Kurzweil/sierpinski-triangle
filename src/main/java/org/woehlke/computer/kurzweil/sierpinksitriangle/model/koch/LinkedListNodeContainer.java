@@ -4,7 +4,7 @@ import lombok.Getter;
 import org.woehlke.computer.kurzweil.sierpinksitriangle.config.ComputerKurzweilProperties;
 import org.woehlke.computer.kurzweil.sierpinksitriangle.model.geometry.LatticeDimension;
 import org.woehlke.computer.kurzweil.sierpinksitriangle.model.geometry.LatticePoint;
-import org.woehlke.computer.kurzweil.sierpinksitriangle.view.KochSnowflakeFrame;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.view.SierpinksiTriangleFrame;
 
 import java.io.Serializable;
 
@@ -14,7 +14,7 @@ import java.io.Serializable;
  * @author Thomas Woehlke
  *
  * @see ComputerKurzweilProperties
- * @see KochSnowflakeFrame
+ * @see SierpinksiTriangleFrame
  * @see LatticeDimension
  *
  * @see LinkedListNode
@@ -27,7 +27,7 @@ public class LinkedListNodeContainer implements Serializable {
 
     static final long serialVersionUID = 242L;
 
-    private final KochSnowflakeFrame tab;
+    private final SierpinksiTriangleFrame tab;
 
     private final LatticeDimension worldDimensions;
 
@@ -35,7 +35,7 @@ public class LinkedListNodeContainer implements Serializable {
 
     private LinkedListNode currentNode;
 
-    public LinkedListNodeContainer(KochSnowflakeFrame tab, LatticeDimension worldDimensions){
+    public LinkedListNodeContainer(SierpinksiTriangleFrame tab, LatticeDimension worldDimensions){
         this.tab = tab;
         this.worldDimensions = worldDimensions;
     }

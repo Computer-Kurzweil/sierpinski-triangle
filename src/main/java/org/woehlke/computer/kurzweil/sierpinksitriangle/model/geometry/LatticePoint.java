@@ -4,7 +4,7 @@ import lombok.*;
 import lombok.extern.log4j.Log4j2;
 import org.woehlke.computer.kurzweil.sierpinksitriangle.config.ComputerKurzweilProperties;
 import org.woehlke.computer.kurzweil.sierpinksitriangle.model.koch.LinkedListNode;
-import org.woehlke.computer.kurzweil.sierpinksitriangle.view.KochSnowflakeFrame;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.view.SierpinksiTriangleFrame;
 
 import java.io.Serializable;
 
@@ -16,7 +16,7 @@ import java.io.Serializable;
  * @author Thomas Woehlke
  *
  * @see ComputerKurzweilProperties
- * @see KochSnowflakeFrame
+ * @see SierpinksiTriangleFrame
  * @see LatticeDimension
  *
  * @see LinkedListNode

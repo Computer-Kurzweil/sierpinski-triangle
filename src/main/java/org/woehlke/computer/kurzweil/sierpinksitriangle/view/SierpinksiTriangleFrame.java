@@ -3,10 +3,10 @@ package org.woehlke.computer.kurzweil.sierpinksitriangle.view;
 import lombok.Getter;
 import org.woehlke.computer.kurzweil.sierpinksitriangle.config.ComputerKurzweilProperties;
 import org.woehlke.computer.kurzweil.sierpinksitriangle.control.ControllerThread;
-import org.woehlke.computer.kurzweil.sierpinksitriangle.model.KochSnowflakeModel;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.model.SierpinksiTriangleModel;
 import org.woehlke.computer.kurzweil.sierpinksitriangle.model.geometry.LatticePoint;
 import org.woehlke.computer.kurzweil.sierpinksitriangle.model.geometry.LatticeRectangle;
-import org.woehlke.computer.kurzweil.sierpinksitriangle.view.canvas.KochSnowflakeCanvas;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.view.canvas.SierpinksiTriangleCanvas;
 import org.woehlke.computer.kurzweil.sierpinksitriangle.view.labels.PanelCopyright;
 import org.woehlke.computer.kurzweil.sierpinksitriangle.view.labels.PanelSubtitle;
 
@@ -24,8 +24,8 @@ import java.io.Serializable;
  * @author Thomas Woehlke
  *
  * @see ControllerThread
- * @see KochSnowflakeCanvas
- * @see KochSnowflakeModel
+ * @see SierpinksiTriangleCanvas
+ * @see SierpinksiTriangleModel
  * @see PanelSubtitle
  * @see PanelCopyright
  *
@@ -41,7 +41,7 @@ import java.io.Serializable;
  * Time: 18:47:46
  */
 @Getter
-public class KochSnowflakeFrame extends JFrame implements ImageObserver,
+public class SierpinksiTriangleFrame extends JFrame implements ImageObserver,
         MenuContainer,
         Serializable,
         Accessible,
@@ -55,16 +55,16 @@ public class KochSnowflakeFrame extends JFrame implements ImageObserver,
     private final PanelCopyright panelCopyright;
 
     private volatile ControllerThread controller;
-    private volatile KochSnowflakeCanvas canvas;
-    private volatile KochSnowflakeModel model;
+    private volatile SierpinksiTriangleCanvas canvas;
+    private volatile SierpinksiTriangleModel model;
     private volatile LatticeRectangle rectangleBounds;
     private final ComputerKurzweilProperties config;
 
-    public KochSnowflakeFrame(ComputerKurzweilProperties config) {
+    public SierpinksiTriangleFrame(ComputerKurzweilProperties config) {
         super(config.getKochsnowflake().getView().getTitle());
         this.config = config;
-        this.model = new KochSnowflakeModel(this);
-        this.canvas = new KochSnowflakeCanvas(this);
+        this.model = new SierpinksiTriangleModel(this);
+        this.canvas = new SierpinksiTriangleCanvas(this);
         this.controller = new ControllerThread( this);
         this.panelSubtitle = new PanelSubtitle(config.getKochsnowflake().getView().getSubtitle());
         this.panelCopyright = new PanelCopyright(config.getKochsnowflake().getView().getCopyright());
@@ -189,7 +189,7 @@ public class KochSnowflakeFrame extends JFrame implements ImageObserver,
         canvas.setCursor(new Cursor(Cursor.CROSSHAIR_CURSOR));
     }
 
-    public KochSnowflakeCanvas getCanvas() {
+    public SierpinksiTriangleCanvas getCanvas() {
         return canvas;
     }
 

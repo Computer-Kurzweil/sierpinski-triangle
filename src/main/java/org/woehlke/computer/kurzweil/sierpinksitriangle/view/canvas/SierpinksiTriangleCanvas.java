@@ -1,8 +1,8 @@
 package org.woehlke.computer.kurzweil.sierpinksitriangle.view.canvas;
 
-import org.woehlke.computer.kurzweil.sierpinksitriangle.model.KochSnowflakeModel;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.model.SierpinksiTriangleModel;
 import org.woehlke.computer.kurzweil.sierpinksitriangle.model.koch.LinkedListNode;
-import org.woehlke.computer.kurzweil.sierpinksitriangle.view.KochSnowflakeFrame;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.view.SierpinksiTriangleFrame;
 
 import javax.swing.*;
 import java.awt.*;
@@ -14,7 +14,7 @@ import java.io.Serial;
  * (C) 2006 - 2022 Thomas Woehlke
  * @author Thomas Woehlke
  *
- * @see KochSnowflakeModel
+ * @see SierpinksiTriangleModel
  * @see Dimension
  *
  * @see JComponent
@@ -26,15 +26,15 @@ import java.io.Serial;
  * Date: 05.02.2006
  * Time: 00:51:51
  */
-public class KochSnowflakeCanvas extends JComponent {
+public class SierpinksiTriangleCanvas extends JComponent {
 
     @Serial
     private final static long serialVersionUID = 242L;
 
-    private volatile KochSnowflakeModel model;
+    private volatile SierpinksiTriangleModel model;
     private volatile Dimension preferredSize;
 
-    public KochSnowflakeCanvas(KochSnowflakeFrame tab) {
+    public SierpinksiTriangleCanvas(SierpinksiTriangleFrame tab) {
         this.model = tab.getModel();
         int width = this.model.getWorldDimensions().getWidth();
         int height = this.model.getWorldDimensions().getHeight();

@@ -1,28 +1,28 @@
 package org.woehlke.computer.kurzweil.sierpinksitriangle;
 
 import org.woehlke.computer.kurzweil.sierpinksitriangle.config.ComputerKurzweilProperties;
-import org.woehlke.computer.kurzweil.sierpinksitriangle.view.KochSnowflakeFrame;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.view.SierpinksiTriangleFrame;
 
 /**
  * Koch Snowflake. A Fractal with self self-similarity.
  * (C) 2006 - 2022 Thomas Woehlke
  * @author Thomas Woehlke
  *
- * @see KochSnowflakeFrame
+ * @see SierpinksiTriangleFrame
  * @see ComputerKurzweilProperties
  *
  * @see <a href="https://github.com/Computer-Kurzweil/kochsnowflake">Github Repository</a>
  * @see <a href="https://java.woehlke.org/kochsnowflake/">Maven Project Reports</a>
  */
-public class KochSnowflakeApplication {
+public class SierpinksiTriangleApplication {
 
-    private final KochSnowflakeFrame frame;
+    private final SierpinksiTriangleFrame frame;
 
-    private KochSnowflakeApplication() {
+    private SierpinksiTriangleApplication() {
         String conf = "application.yml";
         String jarPath = "target/kochsnowflake.jar";
         ComputerKurzweilProperties config = ComputerKurzweilProperties.propertiesFactory(conf,jarPath);
-        frame = new KochSnowflakeFrame(config);
+        frame = new SierpinksiTriangleFrame(config);
     }
 
     public void start(){
@@ -34,7 +34,7 @@ public class KochSnowflakeApplication {
      * @param args CLI Parameter
      */
     public static void main(String[] args) {
-        KochSnowflakeApplication application = new KochSnowflakeApplication();
+        SierpinksiTriangleApplication application = new SierpinksiTriangleApplication();
         application.start();
     }
 }
