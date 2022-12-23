@@ -121,7 +121,8 @@ kochsnowflake:
       typeMoore: 'Moore'
       typeWoehlke: 'Woehlke'
   control:
-    threadSleepTime: 1
+    threadSleepTime: 3000
+    maxIterations: 5
 samegame:
   view:
     title: 'Same Game'
@@ -137,15 +138,14 @@ samegame:
 sierpinskitriangle:
   view:
     title: 'Sierpinski Triangle'
-    subtitle: 'Fractal Sierpinski Triangle'
-    neighborhood:
-      title: 'Neighborhood'
-      typeVonNeumann: 'Von Neumann'
-      typeMoore: 'Moore'
-      typeWoehlke: 'Woehlke'
+    subtitle: 'a fractal with self self-similarity'
+    copyright: "(C) 2022 Thomas Woehlke"
+    width: 320
+    height: 234
+    scale: 3
   control:
-    threadSleepTime: 50
-    numberOfParticles: 30000
+    threadSleepTime: 3000
+    maxIterations: 5
 tetris:
   view:
     title: 'Tetris'
