@@ -1024,7 +1024,7 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>org.woehlke.computer.kurzweil.sierpinksitriangle.SierpinksiTriangleApplication</mainClass>
+                    <mainClass>org.woehlke.computer.kurzweil.sierpinksitriangle2.SierpinksiTriangleApplication</mainClass>
                 </configuration>
             </plugin>
             <plugin>
