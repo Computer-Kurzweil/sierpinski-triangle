@@ -138,16 +138,11 @@ samegame:
 sierpinskitriangle:
   view:
     title: 'Sierpinski Triangle'
-    subtitle: 'Fractal Sierpinski Triangle'
+    subtitle: 'a fractal with self self-similarity'
     copyright: "(C) 2022 Thomas Woehlke"
     width: 320
     height: 234
     scale: 3
-    neighborhood:
-      title: 'Neighborhood'
-      typeVonNeumann: 'Von Neumann'
-      typeMoore: 'Moore'
-      typeWoehlke: 'Woehlke'
   control:
     threadSleepTime: 3000
     maxIterations: 5
