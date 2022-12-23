@@ -5,6 +5,7 @@ import org.woehlke.computer.kurzweil.sierpinksitriangle.config.ComputerKurzweilP
 import org.woehlke.computer.kurzweil.sierpinksitriangle.model.geometry.LatticeDimension;
 import org.woehlke.computer.kurzweil.sierpinksitriangle.model.geometry.LatticePoint;
 import org.woehlke.computer.kurzweil.sierpinksitriangle.model.koch.LinkedListNodeContainer;
+import org.woehlke.computer.kurzweil.sierpinksitriangle.model.sierpinksi.TriagleContainer;
 import org.woehlke.computer.kurzweil.sierpinksitriangle.view.SierpinksiTriangleFrame;
 
 import java.io.Serializable;
@@ -29,7 +30,7 @@ public class SierpinksiTriangleModel implements Serializable {
     static final long serialVersionUID = 242L;
 
     private volatile SierpinksiTriangleFrame tab;
-    private volatile LinkedListNodeContainer linkedListNodeContainer;
+    private volatile TriagleContainer triagleContainer;
 
     private final LatticeDimension worldDimensions;
 
@@ -40,18 +41,16 @@ public class SierpinksiTriangleModel implements Serializable {
         int width = scale * config.getSierpinskitriangle().getView().getWidth();
         int height = scale * config.getSierpinskitriangle().getView().getHeight();
         this.worldDimensions = LatticeDimension.of(width,height);
-        this.linkedListNodeContainer = new LinkedListNodeContainer(tab, this.worldDimensions);
-    }
-
-    public synchronized boolean step() {
-        return this.linkedListNodeContainer.step();
-    }
-
-    public void click(LatticePoint c) {
-
+        this.triagleContainer = new TriagleContainer(tab, this.worldDimensions);
     }
 
     public void start(){
-        this.linkedListNodeContainer.start();
+        this.triagleContainer.start();
     }
+
+    public synchronized void step() {
+         this.triagleContainer.step();
+    }
+
+    public void click(LatticePoint c) {}
 }

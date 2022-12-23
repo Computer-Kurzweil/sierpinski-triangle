@@ -40,14 +40,13 @@ public class ControllerThread extends Thread implements Runnable {
 
     public void run() {
         int i = 0;
-        while (goOn() &&  i < this.maxIterations) {
+        while (i < this.maxIterations) {
             i++;
-            if(this.model.step()){
-                view.getCanvas().repaint();
-                view.repaint();
-            }
+            this.model.step();
+            view.getCanvas().repaint();
+            view.repaint();
             try {
-                sleep( this.threadSleepTtime);
+                sleep(this.threadSleepTtime);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
