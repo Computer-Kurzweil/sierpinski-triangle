@@ -10,7 +10,7 @@ import org.woehlke.computer.kurzweil.sierpinksitriangle.view.SierpinksiTriangleF
 import java.io.Serializable;
 
 /**
- * Koch Snowflake. A Fractal with self self-similarity.
+ * Sierpiński triangle. A Fractal with self self-similarity.
  * (C) 2006 - 2022 Thomas Woehlke
  * @author Thomas Woehlke
  *
@@ -18,8 +18,8 @@ import java.io.Serializable;
  * @see SierpinksiTriangleFrame
  * @see LinkedListNodeContainer
  *
- * @see <a href="https://github.com/Computer-Kurzweil/kochsnowflake">Github Repository</a>
- * @see <a href="https://java.woehlke.org/kochsnowflake/">Maven Project Reports</a>
+ * @see <a href="https://github.com/Computer-Kurzweil/sierpinskitriangle">Github Repository</a>
+ * @see <a href="https://java.woehlke.org/sierpinskitriangle/">Maven Project Reports</a>
  *
  * Created by tw on 16.12.2019.
  */

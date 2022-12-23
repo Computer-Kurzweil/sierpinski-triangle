@@ -4,15 +4,15 @@ import org.woehlke.computer.kurzweil.sierpinksitriangle.config.ComputerKurzweilP
 import org.woehlke.computer.kurzweil.sierpinksitriangle.view.SierpinksiTriangleFrame;
 
 /**
- * Koch Snowflake. A Fractal with self self-similarity.
+ * Sierpiński triangle. A Fractal with self self-similarity.
  * (C) 2006 - 2022 Thomas Woehlke
  * @author Thomas Woehlke
  *
  * @see SierpinksiTriangleFrame
  * @see ComputerKurzweilProperties
  *
- * @see <a href="https://github.com/Computer-Kurzweil/kochsnowflake">Github Repository</a>
- * @see <a href="https://java.woehlke.org/kochsnowflake/">Maven Project Reports</a>
+ * @see <a href="https://github.com/Computer-Kurzweil/sierpinskitriangle">Github Repository</a>
+ * @see <a href="https://java.woehlke.org/sierpinskitriangle/">Maven Project Reports</a>
  */
 public class SierpinksiTriangleApplication {
 
@@ -20,7 +20,7 @@ public class SierpinksiTriangleApplication {
 
     private SierpinksiTriangleApplication() {
         String conf = "application.yml";
-        String jarPath = "target/kochsnowflake.jar";
+        String jarPath = "target/sierpinskitriangle.jar";
         ComputerKurzweilProperties config = ComputerKurzweilProperties.propertiesFactory(conf,jarPath);
         frame = new SierpinksiTriangleFrame(config);
     }

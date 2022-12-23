@@ -7,14 +7,14 @@ import java.io.Serializable;
 import java.util.Objects;
 
 /**
- * Koch Snowflake. A Fractal with self self-similarity.
+ * Sierpiński triangle. A Fractal with self self-similarity.
  * (C) 2006 - 2022 Thomas Woehlke
  * @author Thomas Woehlke
  *
  * @see LatticePoint
  *
- * @see <a href="https://github.com/Computer-Kurzweil/kochsnowflake">Github Repository</a>
- * @see <a href="https://java.woehlke.org/kochsnowflake/">Maven Project Reports</a>
+ * @see <a href="https://github.com/Computer-Kurzweil/sierpinskitriangle">Github Repository</a>
+ * @see <a href="https://java.woehlke.org/sierpinskitriangle/">Maven Project Reports</a>
  */
 @Getter
 @Setter

@@ -11,7 +11,7 @@ import java.io.Serializable;
 /**
  * A Point is used to define the Position of Cell or as a Vector for defining Dimensions.
  *
- * Koch Snowflake. A Fractal with self self-similarity.
+ * Sierpiński triangle. A Fractal with self self-similarity.
  * (C) 2006 - 2022 Thomas Woehlke
  * @author Thomas Woehlke
  *
@@ -21,8 +21,8 @@ import java.io.Serializable;
  *
  * @see LinkedListNode
  *
- * @see <a href="https://github.com/Computer-Kurzweil/kochsnowflake">Github Repository</a>
- * @see <a href="https://java.woehlke.org/kochsnowflake/">Maven Project Reports</a>
+ * @see <a href="https://github.com/Computer-Kurzweil/sierpinskitriangle">Github Repository</a>
+ * @see <a href="https://java.woehlke.org/sierpinskitriangle/">Maven Project Reports</a>
  *
  * Date: 04.02.2006
  * Time: 23:47:05
