@@ -9,7 +9,7 @@
         <version>1.3</version>
     </skin>
     <bannerLeft>
-        <name>Sierpinskitriangle</name>
+        <name>Koch Snowflake</name>
         <src>/img/phasenraum_logo.gif</src>
         <href>https://java.woehlke.org/</href>
     </bannerLeft>
@@ -20,21 +20,23 @@
     </poweredBy>
     <body>
         <links>
-            <item name="GitHub project" href="https://github.com/Computer-Kurzweil/sierpinskitriangle/" />
+            <item name="GitHub project" href="https://github.com/Computer-Kurzweil/kochsnowflake/" />
         </links>
         <breadcrumbs>
-            <item name="Simulated Evolution" href="index.html" />
+            <item name="Koch Snowflake" href="index.html" />
         </breadcrumbs>
         <menu name="Main" inherit="top">
             <item name="Home" href="index.html" />
-            <item name="GitHub project" href="https://github.com/Computer-Kurzweil/sierpinskitriangle" />
-            <item name="Maven project reports" href="https://java.woehlke.org/sierpinskitriangle" />
-            <item name="Copyright" href="LICENSE.code.html" />
+            <item name="GitHub project" href="https://github.com/Computer-Kurzweil/kochsnowflake" />
+            <item name="Maven Project Reports" href="https://java.woehlke.org/kochsnowflake" />
             <item name="License" href="LICENSE.html" />
+            <item name="Copyright" href="LICENSE.code.html" />
+            <item name="Wikipedia" href="https://en.wikipedia.org/wiki/Koch_snowflake" />
+            <item name="Helge von Koch" href="https://en.wikipedia.org/wiki/Helge_von_Koch" />
         </menu>
         <menu name="Contribute" inherit="bottom">
-            <item name="Issues" href="https://github.com/Computer-Kurzweil/sierpinskitriangle/issues/" />
-            <item name="Fork on GitHub" href="https://github.com/Computer-Kurzweil/sierpinskitriangle/" />
+            <item name="Issues" href="https://github.com/Computer-Kurzweil/kochsnowflake/issues/" />
+            <item name="Fork on GitHub" href="https://github.com/Computer-Kurzweil/kochsnowflake/" />
             <item name="Donate" href="https://www.paypal.me/ThomasWoehlke" />
         </menu>
         <menu name="Maven Reports" ref="reports" inherit="bottom"/>

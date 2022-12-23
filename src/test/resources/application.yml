@@ -110,15 +110,18 @@ dla:
 kochsnowflake:
   view:
     title: 'Koch Snowflake'
-    subtitle: 'Fractal Koch Snowflake'
+    subtitle: 'a fractal with self self-similarity'
+    copyright: "(C) 2022 Thomas Woehlke"
+    width: 320
+    height: 234
+    scale: 3
     neighborhood:
       title: 'Neighborhood'
       typeVonNeumann: 'Von Neumann'
       typeMoore: 'Moore'
       typeWoehlke: 'Woehlke'
   control:
-    threadSleepTime: 50
-    numberOfParticles: 30000
+    threadSleepTime: 1
 samegame:
   view:
     title: 'Same Game'

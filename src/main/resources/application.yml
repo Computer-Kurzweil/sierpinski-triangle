@@ -110,15 +110,19 @@ dla:
 kochsnowflake:
   view:
     title: 'Koch Snowflake'
-    subtitle: 'Fractal Koch Snowflake'
+    subtitle: 'a fractal with self self-similarity'
+    copyright: "(C) 2022 Thomas Woehlke"
+    width: 320
+    height: 234
+    scale: 3
     neighborhood:
       title: 'Neighborhood'
       typeVonNeumann: 'Von Neumann'
       typeMoore: 'Moore'
       typeWoehlke: 'Woehlke'
   control:
-    threadSleepTime: 50
-    numberOfParticles: 30000
+    threadSleepTime: 3000
+    maxIterations: 5
 samegame:
   view:
     title: 'Same Game'
@@ -135,12 +139,14 @@ sierpinskitriangle:
   view:
     title: 'Sierpinski Triangle'
     subtitle: 'Fractal Sierpinski Triangle'
-    copyright: '(c) 2022 Thomas Woehlke'
-    width: 400
-    height: 292
-    scale: 3
+    neighborhood:
+      title: 'Neighborhood'
+      typeVonNeumann: 'Von Neumann'
+      typeMoore: 'Moore'
+      typeWoehlke: 'Woehlke'
   control:
     threadSleepTime: 50
+    numberOfParticles: 30000
 tetris:
   view:
     title: 'Tetris'
@@ -156,7 +162,7 @@ tetris:
 turmite:
   view:
     title: 'Turmite'
-    subtitle: 'Turmites as Turing Machines with 2D Tape'
+    subtitle: 'Termites as Turing Machines with 2D Tape'
     neighborhood:
       title: 'Neighborhood'
       typeVonNeumann: 'Von Neumann'
