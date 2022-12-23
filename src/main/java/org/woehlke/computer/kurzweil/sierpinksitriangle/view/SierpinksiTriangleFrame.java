@@ -61,7 +61,7 @@ public class SierpinksiTriangleFrame extends JFrame implements ImageObserver,
     private final ComputerKurzweilProperties config;
 
     public SierpinksiTriangleFrame(ComputerKurzweilProperties config) {
-        super(config.getKochsnowflake().getView().getTitle());
+        super(config.getSierpinskitriangle().getView().getTitle());
         this.config = config;
         this.model = new SierpinksiTriangleModel(this);
         this.canvas = new SierpinksiTriangleCanvas(this);
