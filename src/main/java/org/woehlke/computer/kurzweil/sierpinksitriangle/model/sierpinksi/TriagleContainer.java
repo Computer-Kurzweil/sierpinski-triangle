@@ -54,13 +54,13 @@ public class TriagleContainer implements Serializable {
         int y1 = padding + myHeight;
         int y2 = padding;
         int y3 = padding + myHeight;
-        LatticePoint verticeLeft  = new LatticePoint(x1,y1);
-        LatticePoint verticeUpper = new LatticePoint(x2,y2);
-        LatticePoint verticeRight = new LatticePoint(x3,y3);
+        LatticePoint verticeLowerLeft  = new LatticePoint(x1,y1);
+        LatticePoint verticeUpperCenter = new LatticePoint(x2,y2);
+        LatticePoint verticeLowerRight = new LatticePoint(x3,y3);
         Triagle rootTriangle = new Triagle();
-        rootTriangle.setVerticeLeft(verticeLeft);
-        rootTriangle.setVerticeUpper(verticeUpper);
-        rootTriangle.setVerticeRight(verticeRight);
+        rootTriangle.setVerticeLowerLeft(verticeLowerLeft);
+        rootTriangle.setVerticeUpperCenter(verticeUpperCenter);
+        rootTriangle.setVerticeLowerRight(verticeLowerRight);
         this.triagles.add(rootTriangle);
     }
 

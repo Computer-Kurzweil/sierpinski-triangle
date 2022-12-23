@@ -32,7 +32,7 @@ public class Triagle implements Serializable {
 
     static final long serialVersionUID = 242L;
 
-    private LatticePoint verticeLeft;
-    private LatticePoint verticeRight;
-    private LatticePoint verticeUpper;
+    private LatticePoint verticeLowerLeft;
+    private LatticePoint verticeUpperCenter;
+    private LatticePoint verticeLowerRight;
 }

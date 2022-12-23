@@ -76,24 +76,36 @@ public class SierpinksiTriangleCanvas extends JComponent {
             }
             //left
             g.drawLine(
-                triagle.getVerticeLeft().getX(),
-                triagle.getVerticeLeft().getY(),
-                triagle.getVerticeUpper().getX(),
-                triagle.getVerticeUpper().getX()
+                triagle.getVerticeLowerLeft().getX(),
+                triagle.getVerticeLowerLeft().getY(),
+                triagle.getVerticeUpperCenter().getX(),
+                triagle.getVerticeUpperCenter().getY()
             );
+            i++;
+            if(i%2==0){
+                g.setColor(Color.RED);
+            } else {
+                g.setColor(Color.GREEN);
+            }
             //right
             g.drawLine(
-                triagle.getVerticeUpper().getX(),
-                triagle.getVerticeUpper().getX(),
-                triagle.getVerticeRight().getX(),
-                triagle.getVerticeRight().getY()
+                triagle.getVerticeUpperCenter().getX(),
+                triagle.getVerticeUpperCenter().getY(),
+                triagle.getVerticeLowerRight().getX(),
+                triagle.getVerticeLowerRight().getY()
             );
+            i++;
+            if(i%2==0){
+                g.setColor(Color.RED);
+            } else {
+                g.setColor(Color.GREEN);
+            }
             //baseline
             g.drawLine(
-                triagle.getVerticeRight().getX(),
-                triagle.getVerticeRight().getY(),
-                triagle.getVerticeLeft().getX(),
-                triagle.getVerticeLeft().getY()
+                triagle.getVerticeLowerRight().getX(),
+                triagle.getVerticeLowerRight().getY(),
+                triagle.getVerticeLowerLeft().getX(),
+                triagle.getVerticeLowerLeft().getY()
             );
         }
     }
