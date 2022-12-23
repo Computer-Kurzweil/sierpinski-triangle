@@ -70,6 +70,9 @@ public class TriagleContainer implements Serializable {
             Triagle verticeLeftTriagle = new Triagle();
             Triagle verticeUpperTriagle = new Triagle();
             Triagle verticeRightTriagle = new Triagle();
+            verticeLeftTriagle.setVerticeLowerLeft(srcTriagle.getVerticeLowerLeft());
+            verticeUpperTriagle.setVerticeUpperCenter(srcTriagle.getVerticeUpperCenter());
+            verticeRightTriagle.setVerticeLowerRight(srcTriagle.getVerticeLowerRight());
         }
     }
 }
