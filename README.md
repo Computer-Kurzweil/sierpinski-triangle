@@ -2,14 +2,17 @@
 
 ![Java CI with Maven](https://github.com/Computer-Kurzweil/sierpinskitriangle/workflows/Java%20CI%20with%20Maven/badge.svg)
 
-**Artificial Life Simulation of Bacteria Motion depending on DNA**
+**a fractal with self self-similarity**
 
 ## Abstract
 
-Green food appears in a simulatedEvolutionModel with red moving cells. These cells eat the food if it is on their position.
-Movement of the cells depends on random and their DNA. A fit cell moves around and eats enough to reproduce.
-Reproduction is done by splitting the cell and randomly changing the DNA of the two new Cells.
-If a cell doesn't eat enough, it will first stand still and after a while it dies.
+The Sierpiński triangle (sometimes spelled Sierpinski),
+also called the Sierpiński gasket or Sierpiński sieve, is a fractal attractive fixed set with the
+overall shape of an equilateral triangle, subdivided recursively into smaller equilateral triangles.
+Originally constructed as a curve, this is one of the basic examples of self-similar sets—that is,
+it is a mathematically generated pattern that is reproducible at any magnification or reduction.
+It is named after the Polish mathematician Wacław Sierpiński, but appeared as a decorative pattern
+many centuries before the work of Sierpiński.
 
 
 ## Run the Desktop Application
@@ -22,13 +25,11 @@ cd sierpinskitriangle
 
 ## Screenshot
 
-![Early Screen](src/main/resources/img/screen1.png)
+![Early Screen](src/main/resources/img/screen001.png)
 
-![Later Screen](src/main/resources/img/screen2.png)
+![Later Screen](src/main/resources/img/screen002.png)
 
-
-## UML Class Model
-![UML Class Model](src/main/resources/img/Class_Model.jpg)
+![Later Screen](src/main/resources/img/screen003.png)
 
 
 ## Repositories
