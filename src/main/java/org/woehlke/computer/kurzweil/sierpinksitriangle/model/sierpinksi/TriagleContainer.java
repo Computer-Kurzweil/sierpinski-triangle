@@ -70,9 +70,39 @@ public class TriagleContainer implements Serializable {
             Triagle verticeLeftTriagle = new Triagle();
             Triagle verticeUpperTriagle = new Triagle();
             Triagle verticeRightTriagle = new Triagle();
+
+            LatticePoint lineLeftCenter =
+                srcTriagle.getVerticeLowerLeft()
+                    .delta(srcTriagle.getVerticeUpperCenter())
+                    .scalarMultiplied(0.5)
+                    .add(srcTriagle.getVerticeLowerLeft());
+            LatticePoint lineRightCenter =
+                srcTriagle.getVerticeUpperCenter()
+                    .delta(srcTriagle.getVerticeLowerRight())
+                    .scalarMultiplied(0.5)
+                    .add(srcTriagle.getVerticeUpperCenter());
+            LatticePoint lineBaseCenter =
+                srcTriagle.getVerticeLowerRight()
+                    .delta(srcTriagle.getVerticeLowerLeft())
+                    .scalarMultiplied(0.5)
+                    .add(srcTriagle.getVerticeLowerRight());
+
             verticeLeftTriagle.setVerticeLowerLeft(srcTriagle.getVerticeLowerLeft());
+            verticeLeftTriagle.setVerticeUpperCenter(lineLeftCenter);
+            verticeLeftTriagle.setVerticeLowerRight(lineBaseCenter);
+
+            verticeUpperTriagle.setVerticeLowerLeft(lineLeftCenter);
             verticeUpperTriagle.setVerticeUpperCenter(srcTriagle.getVerticeUpperCenter());
+            verticeUpperTriagle.setVerticeLowerRight(lineRightCenter);
+
+            verticeRightTriagle.setVerticeLowerLeft(lineBaseCenter);
+            verticeRightTriagle.setVerticeUpperCenter(lineRightCenter);
             verticeRightTriagle.setVerticeLowerRight(srcTriagle.getVerticeLowerRight());
+
+            triaglesNextLevel.add(verticeLeftTriagle);
+            triaglesNextLevel.add(verticeUpperTriagle);
+            triaglesNextLevel.add(verticeRightTriagle);
         }
+        this.triagles = triaglesNextLevel;
     }
 }
