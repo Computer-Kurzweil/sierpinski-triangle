@@ -4,7 +4,7 @@
 
     <groupId>org.woehlke.computer.kurzweil</groupId>
     <artifactId>sierpinskitriangle</artifactId>
-    <version>3.0.2</version>
+    <version>3.0.3-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Sierpinskitriangle</name>
@@ -23,7 +23,7 @@
         <url>https://github.com/Computer-Kurzweil/sierpinskitriangle.git</url>
         <connection>scm:git:git@github.com:Computer-Kurzweil/sierpinskitriangle.git</connection>
         <developerConnection>scm:git:git@github.com:Computer-Kurzweil/sierpinskitriangle.git</developerConnection>
-        <tag>sierpinskitriangle-3.0.2</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
