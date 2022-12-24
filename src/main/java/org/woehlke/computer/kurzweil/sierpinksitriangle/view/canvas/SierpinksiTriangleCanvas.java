@@ -66,14 +66,7 @@ public class SierpinksiTriangleCanvas extends JComponent {
         );
         g.setColor(Color.RED);
         List<Triagle> triagles = model.getTriagleContainer().getTriagles();
-        int i=0;
         for(Triagle triagle:triagles) {
-            i++;
-            if(i%2==0){
-                g.setColor(Color.RED);
-            } else {
-                g.setColor(Color.GREEN);
-            }
             //left
             g.drawLine(
                 triagle.getVerticeLowerLeft().getX(),
@@ -81,12 +74,6 @@ public class SierpinksiTriangleCanvas extends JComponent {
                 triagle.getVerticeUpperCenter().getX(),
                 triagle.getVerticeUpperCenter().getY()
             );
-            i++;
-            if(i%2==0){
-                g.setColor(Color.RED);
-            } else {
-                g.setColor(Color.GREEN);
-            }
             //right
             g.drawLine(
                 triagle.getVerticeUpperCenter().getX(),
@@ -94,12 +81,6 @@ public class SierpinksiTriangleCanvas extends JComponent {
                 triagle.getVerticeLowerRight().getX(),
                 triagle.getVerticeLowerRight().getY()
             );
-            i++;
-            if(i%2==0){
-                g.setColor(Color.RED);
-            } else {
-                g.setColor(Color.GREEN);
-            }
             //baseline
             g.drawLine(
                 triagle.getVerticeLowerRight().getX(),
