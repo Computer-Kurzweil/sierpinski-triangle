@@ -20,9 +20,9 @@
     <inceptionYear>2013</inceptionYear>
 
     <scm>
-        <url>https://github.com/Computer-Kurzweil/sierpinskitriangle.git</url>
         <connection>scm:git:git@github.com:Computer-Kurzweil/sierpinskitriangle.git</connection>
         <developerConnection>scm:git:git@github.com:Computer-Kurzweil/sierpinskitriangle.git</developerConnection>
+        <url>https://github.com/Computer-Kurzweil/sierpinskitriangle.git/tree/${project.scm.tag}</url>
         <tag>HEAD</tag>
     </scm>
 
