@@ -25,11 +25,7 @@ cd sierpinskitriangle
 
 ## Screenshot
 
-![Early Screen](src/main/resources/img/screen001.png)
-
-![Later Screen](src/main/resources/img/screen002.png)
-
-![Later Screen](src/main/resources/img/screen003.png)
+![Later Screen](src/main/resources/img/screen01.png)
 
 
 ## Repositories
