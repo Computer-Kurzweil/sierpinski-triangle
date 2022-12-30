@@ -8,7 +8,7 @@
         <version>1.0.1</version>
     </parent>
 
-    <artifactId>sierpinskitriangle</artifactId>
+    <artifactId>sierpinski-triangle</artifactId>
     <version>3.0.4-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -21,25 +21,25 @@
         It is named after the Polish mathematician Wacław Sierpiński, but appeared as a decorative pattern
         many centuries before the work of Sierpiński.
     </description>
-    <url>https://github.com/Computer-Kurzweil/sierpinskitriangle</url>
+    <url>https://github.com/Computer-Kurzweil/sierpinski-triangle</url>
     <inceptionYear>2013</inceptionYear>
 
     <scm>
-        <connection>scm:git:git@github.com:Computer-Kurzweil/sierpinskitriangle.git</connection>
-        <developerConnection>scm:git:git@github.com:Computer-Kurzweil/sierpinskitriangle.git</developerConnection>
-        <url>https://github.com/Computer-Kurzweil/sierpinskitriangle.git/tree/${project.scm.tag}</url>
+        <connection>scm:git:git@github.com:Computer-Kurzweil/sierpinski-triangle.git</connection>
+        <developerConnection>scm:git:git@github.com:Computer-Kurzweil/sierpinski-triangle.git</developerConnection>
+        <url>https://github.com/Computer-Kurzweil/sierpinski-triangle.git/tree/${project.scm.tag}</url>
         <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
-        <url>https://github.com/Computer-Kurzweil/sierpinskitriangle/issues/</url>
+        <url>https://github.com/Computer-Kurzweil/sierpinski-triangle/issues/</url>
         <system>GitHub</system>
     </issueManagement>
 
     <distributionManagement>
         <site>
-            <id>sierpinskitriangle.local</id>
-            <url>file://${user.home}/public_html/java/sierpinskitriangle/</url>
+            <id>sierpinski-triangle.local</id>
+            <url>file://${user.home}/public_html/java/sierpinski-triangle/</url>
         </site>
         <snapshotRepository>
             <id>snapshots</id>
