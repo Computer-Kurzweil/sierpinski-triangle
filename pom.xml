@@ -21,7 +21,7 @@
         It is named after the Polish mathematician Wacław Sierpiński, but appeared as a decorative pattern
         many centuries before the work of Sierpiński.
     </description>
-    <url>https://github.com/Computer-Kurzweil/sierpinski-triangle</url>
+    <url>https://java.woehlke.org/kurzweil/sierpinski-triangle</url>
     <inceptionYear>2013</inceptionYear>
 
     <scm>
@@ -39,7 +39,7 @@
     <distributionManagement>
         <site>
             <id>sierpinski-triangle.local</id>
-            <url>file://${user.home}/public_html/java/sierpinski-triangle/</url>
+            <url>file://${user.home}/public_html/java/kurzweil/sierpinski-triangle/</url>
         </site>
         <snapshotRepository>
             <id>snapshots</id>
