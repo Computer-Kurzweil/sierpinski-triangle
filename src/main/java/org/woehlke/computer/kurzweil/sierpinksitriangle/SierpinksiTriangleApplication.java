@@ -20,7 +20,7 @@ public class SierpinksiTriangleApplication {
 
     private SierpinksiTriangleApplication() {
         String conf = "application.yml";
-        String jarPath = "target/sierpinskitriangle.jar";
+        String jarPath = "target/sierpinski-triangle.jar";
         ComputerKurzweilProperties config = ComputerKurzweilProperties.propertiesFactory(conf,jarPath);
         frame = new SierpinksiTriangleFrame(config);
     }
