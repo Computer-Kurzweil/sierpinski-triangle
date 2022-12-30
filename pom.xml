@@ -12,7 +12,7 @@
     <version>3.0.4-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Sierpinskitriangle</name>
+    <name>Sierpinski Triangle</name>
     <description>The Sierpiński triangle (sometimes spelled Sierpinski),
         also called the Sierpiński gasket or Sierpiński sieve, is a fractal attractive fixed set with the
         overall shape of an equilateral triangle, subdivided recursively into smaller equilateral triangles.
