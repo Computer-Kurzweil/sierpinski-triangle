@@ -19,8 +19,8 @@ many centuries before the work of Sierpiński.
 ## Run the Desktop Application
 
 ```
-git clone https://github.com/Computer-Kurzweil/sierpinskitriangle.git
-cd sierpinskitriangle
+git clone https://github.com/Computer-Kurzweil/sierpinski-triangle.git
+cd sierpinski-triangle
 ./mvnw
 ```
 
