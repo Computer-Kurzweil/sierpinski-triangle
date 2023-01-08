@@ -9,8 +9,8 @@
         <version>1.3</version>
     </skin>
     <bannerLeft>
-        <name>Koch Snowflake</name>
-        <src>/img/phasenraum_logo.gif</src>
+        <name>Sierpiński triangle</name>
+        <src>/img/thomas_woehlke__geburt_einer_vision__logo.png</src>
         <href>https://java.woehlke.org/</href>
     </bannerLeft>
     <publishDate position="navigation-bottom"/>
@@ -20,23 +20,23 @@
     </poweredBy>
     <body>
         <links>
-            <item name="GitHub project" href="https://github.com/Computer-Kurzweil/kochsnowflake/" />
+            <item name="GitHub project" href="https://github.com/Computer-Kurzweil/sierpinski-triangle" />
         </links>
         <breadcrumbs>
             <item name="Sierpiński triangle" href="index.html" />
         </breadcrumbs>
         <menu name="Main" inherit="top">
             <item name="Home" href="index.html" />
-            <item name="GitHub project" href="https://github.com/Computer-Kurzweil/sierpinskitriangle" />
-            <item name="Maven Project Reports" href="https://java.woehlke.org/sierpinskitriangle" />
-            <item name="License" href="LICENSE.html" />
-            <item name="Copyright" href="LICENSE.code.html" />
+            <item name="GitHub project" href="https://github.com/Computer-Kurzweil/sierpinski-triangle" />
             <item name="Wikipedia" href="https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle" />
         </menu>
+        <menu name="License" inherit="top">
+            <item name="License" href="LICENSE.html" />
+            <item name="Copyright" href="LICENSE.code.html" />
+        </menu>
         <menu name="Contribute" inherit="bottom">
-            <item name="Issues" href="https://github.com/Computer-Kurzweil/sierpinskitriangle/issues/" />
-            <item name="Fork on GitHub" href="https://github.com/Computer-Kurzweil/sierpinskitriangle/" />
-            <item name="Donate" href="https://www.paypal.me/ThomasWoehlke" />
+            <item name="Issues" href="https://github.com/Computer-Kurzweil/sierpinski-triangle/issues/" />
+            <item name="Fork on GitHub" href="https://github.com/Computer-Kurzweil/sierpinski-triangle/" />
         </menu>
         <menu name="Maven Reports" ref="reports" inherit="bottom"/>
     </body>
