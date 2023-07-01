@@ -9,7 +9,7 @@
     </parent>
 
     <artifactId>sierpinski-triangle</artifactId>
-    <version>3.0.5-SNAPSHOT</version>
+    <version>3.0.5</version>
     <packaging>jar</packaging>
 
     <name>Sierpinski Triangle</name>
@@ -28,7 +28,7 @@
         <connection>scm:git:git@github.com:Computer-Kurzweil/sierpinski-triangle.git</connection>
         <developerConnection>scm:git:git@github.com:Computer-Kurzweil/sierpinski-triangle.git</developerConnection>
         <url>https://github.com/Computer-Kurzweil/sierpinski-triangle.git/tree/${project.scm.tag}</url>
-        <tag>HEAD</tag>
+        <tag>sierpinski-triangle-3.0.5</tag>
     </scm>
 
     <issueManagement>
